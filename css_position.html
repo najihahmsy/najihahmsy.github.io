@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>CSS Positioning</title>
+<style type="text/css">
+
+body {
+		background: #d2dde8;
+		margin:0;
+		padding: 0;
+		font-family: "Arial";
+
+}
+
+#wrapper {
+	height: 970px;
+	width: 960px;
+	background: #fffbea;
+	margin: 0 auto;
+    padding: 10px;
+}	
+
+#header {
+	width: 945px;
+    height: 125px;
+    background: #dae0b9;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#header img {
+	height: 115px;
+	width: 200px;
+	margin: 5px;
+}
+
+#link {
+	width: 500px;
+	height: 90px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 120px;
+	margin-left: 45px;
+	float: right;
+	text-align: center;
+
+}
+
+#nav {
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	width: 110px;
+	height: 25px;
+	background: #d2dde8;
+	border: 2px solid black;
+	margin: 24px 24px 0px 24px;
+	display: list-item;
+	display: inline-block;
+}
+
+li:hover {
+	background: #fffbea;
+}
+
+#left {
+	width: 244px;
+    height: 600px;
+    background: #e0c9b9;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    margin: 30px 10px 0px 0px;
+    vertical-align: top;
+    position: relative;
+}
+
+#content {
+	width: 350px;
+    height: 600px;
+    background: #e0c9b9;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    margin: 30px 10px 0px 10px;
+    vertical-align: top;
+    position: relative;
+
+}
+
+.c1a {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	top: -10px;
+	right: -5px
+}
+
+#c1 {
+	position: absolute;
+	border-width: 0px 30px 30px 0px;
+	border-color: transparent #4b868e transparent transparent;
+	right: -10px;
+}
+
+#c2 {
+	position: absolute;
+	border-width: 30px 30px 0px 0px;
+	border-color: #4b868e transparent transparent transparent;
+	left: -10px;
+}
+
+.c1b {
+	width: 0px;
+	height: 0px;
+	right: -10px;
+	bottom: -10px;
+	border-style: solid;
+}
+
+#c3 {
+	position: absolute;
+	border-width: 0px 0px 30px 30px;
+	border-color: transparent transparent #4b868e transparent;
+}
+
+#c4 {
+	position: absolute;
+	border-width: 30px 0px 0px 30px;
+	border-color: transparent transparent transparent #4b868e;
+	border-style: solid;
+	left: -10px;
+}
+
+#right {
+	width: 244px;
+    height: 600px;
+    background: #e0c9b9;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    margin: 30px 0px 0px 10px;
+    vertical-align: top;
+    position: relative;
+}
+
+#right img {
+	width: 234px;
+	height: inherit;
+	margin: 0px 5px 5px 0px;
+}
+
+#footer {
+	width: 954px;
+    height: 125px;
+    background: #dae0b9;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+h1 h4 p {
+	text-align: justify;
+	font-family: Arial;
+}
+
+p {
+	font-size: 15px;
+}
+
+h1 h4 {
+	color: red;
+	font-family: "Verdana", "Arial";
+}
+
+h1:hover {
+	color: green;
+}
+
+h4:hover {
+	color: green;
+}
+
+h2:hover {
+	color: green;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<img src="http://freethoughtblogs.com/pharyngula/files/2016/03/south-korea-travel.jpg">
+		<div id="link">
+			<ul id="nav">
+				<li><a href="http://english.visitseoul.net/attractions/N-Seoul-Tower_/37">Seoul Tower</a></li>
+				<li><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=561382">Hanok</a></li>
+				<li><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264244">Namiseom</a></li>
+			</ul>
+		</div>
+	</div> <!--end of header-->
+	<div id="left">
+		<h2>More Place to Visit</h2>
+		<h4>Seongsan Sunrise Peak</h4>
+		<p>Hydrovolcanic eruptions formed this majestic volcanic crater 5,000 years ago on Jeju Island. A UNESCO world heritage site, the peak is famous for many things, including numerous rare plant species, but is best known for the magnificent sight of the sun rising over it (hence the name). The climb up the peak northwest side ridge (its other sides are steep cliffs) to the 180-meter highest point takes 30 minutes.
+		</p>
+		<h4>Ggotji Beach</h4>
+		<p>Located four kilometers southwest from Anmyeon-eup, this cream-colored beach is the ideal place to go for a drive and watch the sun sink into the ocean between two large rock formations known as the Granny Rock and the Grandpa Rock. Legend has it that the wife of a base commanding officer in the Shilla Dynasty became the Granny Rock when she died after waiting faithfully for her husband.</p>
+	</div><!--end of left-->
+	<div id="content">
+		<h1>South Korea</h1>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+
+		<div class="c1a" id="c1"></div>
+		<div class="c1a" id="c2"></div>
+		<div class="c1b" id="c3"></div>
+		<div class="c1b" id="c4"></div>
+	</div><!--end of content-->
+	<div id="right">
+		<h4>Gwang-An Bridge<a href="http://travel.cnn.com/seoul/visit/50-beautiful-places-visit-korea-873093/"><img src="http://i.cdn.travel.cnn.com/sites/default/files/styles/inline_image_624x416/public/2012/01/05/4.gwangan_bridge_resize.jpg?itok=MlVSI1FD"></a>
+		</h4>
+		<h4>Kyeong-Wha Station<a href="http://travel.cnn.com/seoul/visit/50-beautiful-places-visit-korea-873093/"><img src="http://i.cdn.travel.cnn.com/sites/default/files/styles/inline_image_624x416/public/2012/01/05/5.gyeonghwa_station_resize.jpg?itok=WD7CNE-4"></a></h4>
+		<h4>Uleung Island Seaside Road<a href="http://travel.cnn.com/seoul/visit/50-beautiful-places-visit-korea-873093/"><img src="http://i.cdn.travel.cnn.com/sites/default/files/styles/inline_image_624x416/public/2012/01/05/uleungdo_resize.jpg?itok=Z5DH_kRf"></a></h4>
+	</div><!--end of right-->
+	<div id="footer">
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.</p>
+	</div><!--end of footer-->
+	
+</div><!--end of wrapper-->
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+input[type=text] {
+   width: 100%;
+    padding: 6px;
+    margin: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin: 6px;
+}
+
+fieldset p {
+	font-family: 'Bree Serif', serif;
+	text-align: left;
+}
+
+input[type=checkbox] {
+	font-family: 'Slabo 27px', serif;
+    margin: 6px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+select {
+    width: 30%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-size: 15px;
+}
+
+#button {
+    padding: 10px;
+    display: inline-block;
+    margin-left: 435px;
+}
+
+#button:hover {
+	background: grey;
+}
+
+#formright {
+   display: inline-block;
+    width: 423px;
+    margin: 10px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+#formleft {
+    display: inline-block;
+    width: 423px;
+    margin: 10px;
+    padding: 10px;
+    height: 539px;
+    vertical-align: top;
+}
+
+#textcolumn {
+    width: 954px;
+    background: #e0c9b9;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+#title {
+    text-align: center;
+    word-spacing: 5px;
+}
+
+#paragrapgh {
+    column-count: 2;
+    text-align: justify;
+    text-indent: 25px;
+    padding: 20px;
+    vertical-align: top;
+}
+

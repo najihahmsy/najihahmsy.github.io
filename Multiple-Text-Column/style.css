@@ -70,6 +70,7 @@ select {
 #title {
     text-align: center;
     word-spacing: 5px;
+    text-shadow: rgba(189, 81, 81, 0.73) 3px 3px 3px;
 }
 
 #paragrapgh {

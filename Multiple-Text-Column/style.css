@@ -74,6 +74,8 @@ select {
 }
 
 #paragrapgh {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
     column-count: 2;
     text-align: justify;
     text-indent: 25px;

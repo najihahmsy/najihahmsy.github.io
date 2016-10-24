@@ -126,7 +126,7 @@ select {
     position: relative;
     box-sizing: border-box;
     transition: rotate 3s;
-    z-index: 1;
+    z-index: 4;
 }
 
 .t2 {
@@ -140,7 +140,7 @@ select {
     position: relative;
     box-sizing: border-box;
     transition: rotate 3s;
-    z-index: 1;
+    z-index: 3;
 }
 
 .t3 {
@@ -154,7 +154,7 @@ select {
     position: relative;
     box-sizing: border-box;
     transition: rotate 3s;
-    z-index: 1;
+    z-index: 2;
 }
 
 .t4 {

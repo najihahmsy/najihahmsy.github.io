@@ -1,0 +1,86 @@
+.box1 {
+	height: 150px;
+	background-color: black;
+}
+
+.brand {
+	height: 660px;
+    width: 100%;
+    background-image: url(../images/9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+	height: 500px;
+	background-color: red;
+}
+
+.col1 {
+	height: 500px;
+	background-image: url(../images/6.jpg);
+	background-size: cover;
+}
+
+.col2 {
+	height: 500px;
+	background-image: url(../images/11.jpg);
+	background-size: cover;
+}
+
+.col3 {
+	height: 500px;
+	background-image: url(../images/10.jpg);
+	background-size: cover;
+}
+
+.col4 {
+	height: 500px;
+	background-image: url(../images/4.jpg);
+	background-size: cover;
+}
+
+.col5 {
+	height: 500px;
+	background-image: url(../images/5.jpg);
+	background-size: cover;
+}
+
+.col6 {
+	height: 500px;
+	background-image: url(../images/8.jpg);
+	background-size: cover;
+}
+
+.box2 {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+li {
+	color: white;
+}
+
+a {
+	color: white;
+	font-style: none;
+}
+
+.table1 {
+	color: white;
+}
+
+td {
+	color: black;
+}
+
+.email a {
+	color: black;
+}

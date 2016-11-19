@@ -1,0 +1,304 @@
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.fix {
+	overflow: hidden;
+}
+
+#myNavbar {
+	background: black;
+	font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 135px;
+}
+
+.topbar_wrapper.container-fluid.fix {
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-header {
+}
+
+.navbar-toggle {
+}
+
+.icon-bar {
+}
+
+.navbar-brand {
+	margin-left: 150px;
+    margin-top: -13px;
+}
+
+.navbar-brand > img {
+	display: block;
+    width: 180px;
+    margin-top: 13px;
+}
+
+.nav > li {
+	position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    top: -25px;
+    left: 160px;
+}
+
+.navbar-nav {
+	margin: 5px 68px 0 68px;
+}
+
+.navbar-nav > ul > {
+}
+
+.navbar-nav > ul > li {
+}
+
+.navbar-nav > ul > li > a {
+}
+
+.navbar-nav > ul > li > a:hover {
+}
+
+.dropdown {
+}
+
+.dropdown-toggle {
+}
+
+.caret {
+}
+
+.dropdown-menu {
+	background: black;
+	color: white;
+}
+
+.dropdown-menu > ul {
+}
+
+.dropdown-menu > ul > li {
+}
+
+.dropdown-menu > li > a {
+	color: white;
+}
+
+.dropdown-menu > li > a:hover {
+	background: #333;
+	color: white;
+}
+
+.nav.navbar-nav.navbar-right {
+}
+
+.glyphicon.glyphicon-user {
+}
+
+.glyphicon.glyphicon-search {
+}
+
+.glyphicon.glyphicon-shopping-cart {
+}
+
+.badge {
+}
+
+.slider_wrapper {
+	height: 780px;
+}
+
+.slider {
+}
+
+.slider > img {
+	position: relative;
+    width: 103%;
+    margin-top: 5px;
+    margin-left: -16px;
+    margin-bottom: 0px;
+}
+
+.wording {
+	top: -600px;
+}
+
+.jumbotron {
+	background: transparent;
+    color: #1f1d1d;
+    font-family: 'Roboto Slab', serif;
+    margin-right: 120px;
+}
+
+.jumbotron > h1 {
+	font-size: 90px;
+    padding-bottom: 10px;
+}
+
+.jumbotron > p {
+}
+
+.jumbotron > p > a {
+	color: black;
+    background: #e6b9b8;
+    border: 1px solid antiquewhite;
+}
+
+.jumbotron > p > a:hover {
+	color: black;
+    background: #dda09f;
+    border: 1px solid antiquewhite;
+}
+
+.text-center {
+}
+
+.btn.btn-primary.btn-lg {
+}
+
+.collection_wrapper {
+	height: 415px;
+    margin-bottom: 0;
+}
+
+.collection {
+	top: 10px;
+}
+
+.img-thumbnail {
+}
+
+.one {
+}
+
+.one > h4 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.one > .btn {
+}
+
+.t1 {
+}
+
+.t2 {
+}
+
+.t3 {
+}
+
+.t4 {
+}
+
+.label{
+	position: absolute;
+   	top: -6px;
+    left: 75%;
+}
+
+.footer_top_wrapper.container-fluid.fix {
+}
+
+.navigation {
+}
+
+.navigation > li {
+}
+
+.navigation > li > a {
+	padding: 10px 26px;
+    margin-top: 60px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.footer_middle_wrapper.container-fluid.fix {
+}
+
+.footer_middle {
+}
+
+.copyright {
+	margin-top: 40px;
+}
+
+.copyright > p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.f_btn {
+	margin-left: 40%;
+    margin-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bolder;
+    letter-spacing: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.b1 {
+	padding: 20px;
+	border-right: none;
+}
+
+.b2 {
+	padding: 20px;
+	border-left: none;
+}
+
+.b3 {
+	padding: 20px;
+	border-left: 1px solid black;
+}
+
+.footer_bottom_wrapper {
+}
+
+.footer_bottom {
+}
+
+.f_logo {
+	display: inline-block;
+    padding: 0;
+    margin-left: 39%;
+}
+
+.f_logo > img {
+	height: 50px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.img-circle {
+}
+
+.f_text {
+	display: inline-block;
+	margin-top: 65px;
+}
+
+.f_text > p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bolder;
+    letter-spacing: 3px;
+}

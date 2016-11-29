@@ -1,0 +1,162 @@
+* {
+	font-family: 'Cabin', sans-serif;
+	color: black;
+	margin: 0;
+}
+
+#header {
+
+}
+
+.nav a {
+	color: black;
+	font-weight: 500;
+}
+
+.nav i {
+	font-size: 25px;
+	margin-right: -5px;
+}
+
+ul.navbar-nav .active a {
+    background-color: #000;
+    color: #fff;
+    outline: 0 none;
+}
+
+abbr[title], abbr[data-original-title] {
+    cursor: default;
+    border-bottom: none;
+}
+
+.navbar-brand {
+	font-size: 25px;
+	color: black;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+#home {
+	background-image: url(../images/brick3.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 638px;
+}
+
+#home .container-fluid {
+	padding: 226px 0;
+}
+
+#home .greeting {
+	margin: 0;
+	font-weight: 600i;
+	color: #020202;
+}
+
+#home .name {
+	font-family: 'PT Sans Caption', sans-serif;
+	margin: 0;
+	color: black;
+    font-size: 70px;
+}
+
+#home h3 {
+	color: black;
+}
+
+#about {
+
+}
+
+#about .container-fluid {
+	padding: 40px 0;
+}
+
+#about h1 {
+	display: inline-block;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#about h4 {
+	padding: 50px 0;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+#skill {
+	padding-bottom: 70px;
+}
+
+#skill .container {
+
+}
+
+.text_skill {
+	padding-bottom: 60px;
+}
+
+#skill h1 {
+	display: inline-block;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.skill1 {
+	border: 2px solid white;
+}
+
+.skill2 {
+	border: 2px solid white;
+}
+
+.skill3 {
+	border: 2px solid white;
+}
+
+.skill4 {
+	border: 2px solid white;
+}
+
+
+#skill img {
+	max-width: 70%;
+    margin-left: 16%;
+    padding-bottom: 30px;
+}
+
+#skill p {
+	font-weight: 600;
+    line-height: 25px;
+}
+
+#contact {
+
+}
+
+#contact .container {
+	
+}
+
+#contact h2 {
+	font-family: 'Lora', serif;
+	font-style: italic;
+}
+
+#contact i {
+	font-size: 40px;
+    padding: 0 15px;
+}
+
+#contact i:hover {
+	font-size: 40px;
+    padding-right: 20px;
+    color: white;
+    background:  rgba(255,76,112,1);
+}
+
+#contact p {
+	padding-top: 30px;
+    font-weight: 600;
+    font-size: 13px;
+}

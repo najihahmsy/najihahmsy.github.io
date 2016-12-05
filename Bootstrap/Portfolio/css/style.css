@@ -24,6 +24,11 @@ ul.navbar-nav .active a {
     outline: 0 none;
 }
 
+.navbar-toggle {
+	position: relative;
+    right: 76%;
+}
+
 abbr[title], abbr[data-original-title] {
     cursor: default;
     border-bottom: none;

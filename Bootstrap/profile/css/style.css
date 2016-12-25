@@ -1,0 +1,203 @@
+* {
+	font-family: 'Averia Serif Libre', cursive;
+	color: black;
+	margin: 0;
+}
+
+#header {
+
+}
+
+.navbar-fixed-top {
+    background: #ccbbf0;
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.nav a {
+	color: black;
+	font-weight: 500;
+}
+
+.nav i {
+	font-size: 25px;
+	margin-right: -5px;
+}
+
+ul.navbar-nav .active a {
+    background-color: #000;
+    color: #fff;
+    outline: 0 none;
+}
+
+abbr[title], abbr[data-original-title] {
+    cursor: default;
+    border-bottom: none;
+}
+
+.navbar-brand {
+	font-size: 25px;
+	color: black;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+#home {
+	background-image: linear-gradient(rgb(207, 182, 239) 0%, rgb(180, 233, 249) 100%);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 660px;
+}
+
+#home .container-fluid {
+	padding: 226px 0;
+}
+
+/*#home .greeting {
+	font-family: 'Pacifico', cursive;
+	margin: 0;
+	font-weight: 600i;
+	color: #020202;
+}
+
+#home .name {
+	font-family: 'Pacifico', cursive;
+	margin: 0;
+	color: black;
+    font-size: 70px;
+}*/
+
+#home h1 {
+	font-family: 'Pacifico', cursive;
+	color: black;
+	font-size: 70px;
+}
+
+#about {
+	height: 430px;
+}
+
+#about .container-fluid {
+	padding: 40px 0;
+}
+
+#about h1 {
+	font-family: 'Pacifico', cursive;
+	color: black;
+	padding: 40px 0 0 0;
+}
+
+#about h4 {
+	font-family: 'Averia Serif Libre', cursive;
+	font-style: italic;
+	padding: 50px 0;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+#quote {
+	background-image: url(../images/quote.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+#quote h1 {
+    font-family: 'Pacifico', cursive;
+    padding-top: 60px;
+    color: black;
+}
+
+#quote h3 {
+	font-family: 'Cabin', sans-serif;
+	padding-top: 50px;
+    color: white;
+}
+
+#quote h4 {
+	font-family: 'Cabin', sans-serif;
+    color: white;
+    padding-top: 80px;
+}
+
+#skill {
+	padding-bottom: 70px;
+}
+
+#skill .container {
+
+}
+
+.text_skill {
+	padding-bottom: 60px;
+}
+
+#skill h1 {
+	font-family: 'Pacifico', cursive;
+    padding: 60px 0 0 0;
+    color: black;
+}
+
+.skill1 {
+	border: 2px solid white;
+}
+
+.skill2 {
+	border: 2px solid white;
+}
+
+.skill3 {
+	border: 2px solid white;
+}
+
+.skill4 {
+	border: 2px solid white;
+}
+		
+
+#skill img {
+	max-width: 70%;
+    margin-left: 16%;
+    padding-bottom: 30px;
+}
+
+#skill p {
+	font-weight: 600;
+    line-height: 25px;
+}
+
+#contact {
+
+}
+
+#contact .container {
+	
+}
+
+#contact h2 {
+	font-family: 'Pacifico', cursive;
+	color: black;
+}
+
+#contact i {
+	font-size: 40px;
+    padding: 0 15px 30px 15px;
+}
+
+#contact i:hover {
+	font-size: 40px;
+    padding-right: 20px;
+    color: #ccbbf0;
+}
+
+#copyright {
+	background-color: #ccbbf0;
+	height: 80px;
+}
+
+#copyright p {
+	font-family: 'Cabin', sans-serif;
+	font-weight: bold;
+	padding: 30px 0;
+}
